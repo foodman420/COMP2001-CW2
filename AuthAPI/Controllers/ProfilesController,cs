@@ -1,0 +1,9 @@
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+
+[ApiController]
+[Route("[controller]")]
+public class ProfilesController : ControllerBase
+{
+    // Actions will go here
+}

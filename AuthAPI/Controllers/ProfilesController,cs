@@ -5,5 +5,54 @@ using System.Collections.Generic;
 [Route("[controller]")]
 public class ProfilesController : ControllerBase
 {
-    // Actions will go here
+
+    // POST: Create a new profile
+    [HttpPost]
+    public IActionResult Create(Profile profile)
+    {
+        // Implement logic to check for user authentication and admin rights
+        // Add the profile to your data store
+        // Return a success response (201 Created) with the created profile
+        return CreatedAtAction(nameof(Create), new { id = profile.Id }, profile);
+    }
+
+    // GET: Retrieve all profiles
+    [HttpGet]
+    public IActionResult ReadAll()
+    {
+        // Retrieve all profiles from your data store
+        // Return them as a list
+        IEnumerable<Profile> profiles = new List<Profile>(); // Replace with actual retrieval code
+        return Ok(profiles);
+    }
+
+    // GET: Retrieve a single profile by ID
+    [HttpGet("{id}")]
+    public IActionResult ReadSingle(int id)
+    {
+        // Retrieve the specific profile by ID
+        // Implement logic to check if the user is the owner or an admin
+        Profile profile = new Profile(); // Replace with actual retrieval code
+        return Ok(profile);
+    }
+
+    // PUT: Update an existing profile
+    [HttpPut("{id}")]
+    public IActionResult Update(int id, Profile profile)
+    {
+        // Implement logic to check if the user is the owner or an admin
+        // Update the specific profile with new information
+        // Return a success response
+        return NoContent(); // Typically no content is returned for a PUT, but you might return the updated profile
+    }
+
+    // DELETE: Archive a profile instead of fully deleting it
+    [HttpDelete("{id}")]
+    public IActionResult Delete(int id)
+    {
+        // Implement logic to check if the user is the owner or an admin
+        // Archive the profile instead of fully deleting it
+        // Return a success response
+        return NoContent();
+    }
 }

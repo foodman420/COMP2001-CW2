@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\AuthAPI.csproj": {}
+    "E:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\AuthAPI.csproj": {}
   },
   "projects": {
-    "e:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\AuthAPI.csproj": {
+    "E:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\AuthAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\AuthAPI.csproj",
+        "projectUniqueName": "E:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\AuthAPI.csproj",
         "projectName": "AuthAPI",
-        "projectPath": "e:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\AuthAPI.csproj",
+        "projectPath": "E:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\AuthAPI.csproj",
         "packagesPath": "C:\\Users\\Jack Goodman\\.nuget\\packages\\",
-        "outputPath": "e:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\obj\\",
+        "outputPath": "E:\\COMP2001-Repo\\COMP2001-CW2\\AuthAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jack Goodman\\AppData\\Roaming\\NuGet\\NuGet.Config",
